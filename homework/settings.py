@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'homework.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mv-db', # THIS IS THE DATABASE NAME, NOT THE SERVER NAME
-        'USER': 'marcosvelazquez',
+        'NAME': 'postgres',
+        'USER': 'postgres',
         'PASSWORD': 'fjaAFoajfaj4958hn28#jj@',
         'HOST': '0.0.0.0',
         'PORT': '5432',
